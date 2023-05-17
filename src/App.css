@@ -1,66 +1,79 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-html,
-body {
-    height: 100%
-}
-
-body {
-    background-color: rgb(221, 104, 104);
-}
-
-.navbar {
-    display: flex;
-    gap: 20px;
-    background-color: antiquewhite;
-}
-
-.sidebar {
-    background-color: rgba(128, 128, 128, 0.932);
-    height: 100vh;
-    width: 30%;
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    gap: 10px;
-}
-
-.nav {
-    background-color: gray;
-    height: 100vh;
-    margin-right: 10px;
-    width: 70%;
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    gap: 10px;
-}
-
-.nav>.nav-content {
-    background-color: rgb(116, 110, 110);
-    font-family: sans-serif;
-    padding-top: 10px;
-    font-size: medium;
-    box-sizing: border-box;
-    box-shadow: 20px;
-}
-
-.sidebar>.sidebar-content {
-    background-color: rgb(116, 110, 110);
-    font-family: sans-serif;
-    padding-top: 10px;
-    font-size: medium;
-    box-sizing: border-box;
-    box-shadow: 20px;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    margin-bottom: 0%;
-    align-items: end;
-    height: 100%;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    html,
+    body {
+        height: 100%
+    }
+    
+    body {
+        background-color: rgb(221, 104, 104);
+    }
+    
+    .navbar {
+        display: flex;
+        gap: 20px;
+        background-color: antiquewhite;
+    }
+    
+    .sidebar {
+        background-color: rgba(128, 128, 128, 0.932);
+        height: 100vh;
+        width: 30%;
+        color: rgb(250, 252, 253);
+        text-align: center;
+        display: grid;
+        gap: 10px;
+    }
+    
+    .nav {
+        background-color: gray;
+        height: 100vh;
+        margin-right: 10px;
+        width: 70%;
+        color: aliceblue;
+        text-align: center;
+        display: grid;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .nav>.nav-content {
+        background-color: rgb(116, 110, 110);
+        font-family: sans-serif;
+        padding-top: 10px;
+        font-size: medium;
+        box-sizing: border-box;
+        box-shadow: 20px;
+        border-radius: 10px;
+    }
+    
+    .sidebar>.sidebar-content {
+        background-color: rgb(116, 110, 110);
+        font-family: sans-serif;
+        padding-top: 10px;
+        font-size: medium;
+        box-sizing: border-box;
+        box-shadow: 20px;
+        border-radius: 10px;
+    }
+    
+    .footer {
+        background-color: black;
+        color: white;
+        margin-bottom: 0%;
+        align-items: end;
+        height: 100%;
+    }
+    
+    p {
+        color: black;
+        font-family: serif;
+        font-weight: lighter;
+    }
+    
+    h1 {
+        font-weight: bolder;
+    }
